@@ -41,7 +41,10 @@ def createTable(_conn):
         u_userid integer(100),
         u_fullname varchar(100),
         u_email varchar(100),
-        u_phonenumber integer(100)
+        u_phonenumber integer(100),
+        u_password varchar(100),
+        u_type varchar(100),
+        u_username varchar(100)
     )""")
 
     cur.execute(f"""
@@ -49,7 +52,6 @@ def createTable(_conn):
         p_id integer(100),
         p_carid integer(100),
         p_userid integer(100),
-        p_dealerid integer(100)
     )
     """)
 
@@ -64,15 +66,14 @@ def createTable(_conn):
     )
     """)
 
+
     cur.execute(f"""
     CREATE TABLE availability (
-        a_availabilityid integer(100),
-        a_carid integer(100),
-        a_dealerid integer(100),
-        a_fromhq varchar(100),
-        a_soldtype varchar(100)
+        a_avabid integer(100),
+        a_orderid integer(100),
     )
     """)
+
 
     cur.execute(f"""
     CREATE TABLE cars(
@@ -84,6 +85,9 @@ def createTable(_conn):
         c_engine varchar(100),
         c_transmission varchar(100),
         c_class varchar(100)
+        c_tint varchar(100),
+        c_convertible varchar(100),
+        c_carbon varchar(100)
     )
     """)
 

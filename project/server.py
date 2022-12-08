@@ -9,8 +9,6 @@ database = r"database.sqlite"
 
 with app.app_context():
 
-    ##if survey question is black replace '' with Where blah = all or something.
-    
     @app.route("/")
     def start():
         return render_template("login.html")
@@ -35,10 +33,13 @@ with app.app_context():
     def tempbus():
         return render_template("businessacct.html")
     
-
     @app.route("/newManufacturers")
     def tempmanu():
         return render_template("manufacturers.html")
+
+    @app.route("/newDealerships")
+    def tempdealer():
+        return render_template("dealerships.html")
     
     #########creds################
     @app.route('/', methods=['POST'])
@@ -88,6 +89,56 @@ with app.app_context():
             return 'nah'
 
 
+    @app.route('/dealerCreation', methods=['POST'])
+    def dealerfunc():
+        content = request.get_json()
+
+        conn = sqlite3.connect(database)
+        cur = conn.cursor()
+
+        manager = content['manager']
+        email = content['email']
+        address = content['address']
+        phonenumber = content['phonenumber']
+        nationName = content['nation']
+
+        print(manager)
+        print(email)
+        print(address)
+        print(phonenumber)
+        print(nationName)
+
+        cur.execute(f"""
+            SELECT n_nationkey
+            FROM nation
+            WHERE n_name = ?
+        """,(nationName,))
+
+        resultsnation = cur.fetchall()
+        print(resultsnation)
+        nationnum = resultsnation[0][0]
+
+        cur.execute(f"""
+            SELECT COUNT(*)
+            FROM dealership
+        """)
+
+        resultsrow = cur.fetchall()
+
+        nextRow = resultsrow[0][0] + 1
+
+        print(nextRow)
+
+        cur.execute(f"""
+            INSERT INTO dealership (d_dealerid, d_manager, d_email, d_address, d_phonenumber, d_nationkey)
+            VALUES(?, ?, ?, ?, ?, ?)
+        """,(nextRow, manager, email, address, phonenumber, nationnum))
+        conn.commit()
+
+        return 'yup'
+
+
+
 
     @app.route('/manuCreation', methods=['POST'])
     def manufunc():
@@ -99,29 +150,39 @@ with app.app_context():
         address = content['address']
         phonenumber = content['phonenumber']
         email = content['email']
-        nation = content['nation']
+        nationName = content['nation']
 
         print(address)
         print(phonenumber)
         print(email)
-        print(nation)
+        print(nationName)
 
-        # cur.execute(f"""
-        #     SELECT COUNT(*)
-        #     FROM manufacturer
-        # """)
+        cur.execute(f"""
+            SELECT n_nationkey
+            FROM nation
+            WHERE n_name = ?
+        """,(nationName,))
 
-        # results = cur.fetchall()
+        resultsnation = cur.fetchall()
+        print(resultsnation)
+        nationnum = resultsnation[0][0]
 
-        # nextRow = results[0][0] + 1
+        cur.execute(f"""
+            SELECT COUNT(*)
+            FROM manufacturer
+        """)
 
-        # print(nextRow)
+        resultsrow = cur.fetchall()
+
+        nextRow = resultsrow[0][0] + 1
+
+        print(nextRow)
 
         cur.execute(f"""
             INSERT INTO manufacturer (m_id, m_address, m_phonenumber, m_email, m_nationkey)
-            VALUES(9, 'test blvd', 4233448907, 'test@country.com', 99);
-        """)
-
+            VALUES(?, ?, ?, ?, ?)
+        """,(nextRow,address,phonenumber,email,nationnum))
+        conn.commit()
 
         return 'yup'
 

@@ -116,6 +116,22 @@ function createManu(){
     };
 }
 
+function createDealer(){
+    const manager = document.getElementById("manager").value;
+    const email = document.getElementById("email").value;
+    const address = document.getElementById("address").value;
+    const phonenumber = document.getElementById("phonenumber").value;
+    const nation = document.getElementById("nation").value;
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("POST", "http://127.0.0.1:5000/dealerCreation");
+    xhttp.setRequestHeader("Content-Type", "application/json");
+    const body = {"manager": manager, "email": email, "address": address, "phonenumber":phonenumber, "nation": nation};
+    xhttp.send(JSON.stringify(body));
+    xhttp.onload = function() {
+        document.getElementById("paragraph").innerHTML = this.responseText;
+    };
+}
+
 
 
 
