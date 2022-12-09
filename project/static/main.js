@@ -16,10 +16,10 @@ function creds(){
         console.log("success")
         const typeUser = xhttp.responseText;
 
-        if(typeUser == 'student'){
+        if(typeUser == 'NORMAL'){
             window.location.href = "http://127.0.0.1:5000/normalaccount";
         }
-        else if(typeUser == 'business'){
+        else if(typeUser == 'BUSINESS'){
             window.location.href = "http://127.0.0.1:5000/business";
         }
         else if(typeUser == 'nah') {

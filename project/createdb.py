@@ -51,7 +51,7 @@ def createTable(_conn):
     CREATE TABLE purchases (
         p_id integer(100),
         p_carid integer(100),
-        p_userid integer(100),
+        p_userid integer(100)
     )
     """)
 
@@ -70,7 +70,7 @@ def createTable(_conn):
     cur.execute(f"""
     CREATE TABLE availability (
         a_avabid integer(100),
-        a_orderid integer(100),
+        a_orderid integer(100)
     )
     """)
 
@@ -84,7 +84,7 @@ def createTable(_conn):
         c_color varchar(100),
         c_engine varchar(100),
         c_transmission varchar(100),
-        c_class varchar(100)
+        c_class varchar(100),
         c_tint varchar(100),
         c_convertible varchar(100),
         c_carbon varchar(100)
@@ -203,23 +203,25 @@ def populateTable(_conn):
     cur = _conn.cursor()
 
     # cur.execute(f"""
+    # sqlite3
+    # .open database.sqlite
     # .mode csv
     # .separator ","
     # .import ./csvdata/Avalability.csv availability
     # """)
 
 
-    #.import --skip 1 ./csvdata/Avalability.csv availability
-    #   .import ./csvdata/Car.csv cars
-    #  .import ./csvdata/Dealership.csv dealership
-    # .import ./csvdata/HQ.csv hq
-    # .import ./csvdata/Manufacturer.csv manufacturer
-    # .import ./csvdata/Nation.csv nation
-    # .import ./csvdata/Orders.csv orders
-    #   .import ./csvdata/Purchases.csv purchases
-    # .import ./csvdata/Region.csv region
-    # .import ./csvdata/Services.csv services
-    # .import ./csvdata/User.csv user
+    #.import --skip 1 ./data/AVALIBILITY.csv availability
+    #   .import --skip 1./data/CAR.csv cars
+    #  .import --skip 1 ./data/DEALERSHIP.csv dealership
+    # .import --skip 1 ./data/HQ.csv hq
+    # .import --skip 1 ./data/Manufacturer.csv manufacturer
+    # .import --skip 1 ./data/Nation.csv nation
+    # .import --skip 1 ./data/ORDERS.csv orders
+    #   .import --skip 1 ./data/Purchases.csv purchases
+    # .import  --skip1 ./data/Region.csv region
+    # .import --skip1 ./data/SERVICES.csv services
+    # .import -- skip 1 ./data/User.csv user
 
 
 

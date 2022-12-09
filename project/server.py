@@ -79,10 +79,10 @@ with app.app_context():
             with open("temp.json", "w") as json_file:
                 json.dump(fullname[0][0],json_file)
 
-            if(results[0][0] == 'student'):
-                return 'student'
-            elif(results[0][0] == 'business'):
-                return 'business'
+            if(results[0][0] == 'NORMAL'):
+                return 'NORMAL'
+            elif(results[0][0] == 'BUSINESS'):
+                return 'BUSINESS'
         
         
         else:
@@ -228,9 +228,10 @@ with app.app_context():
 
         cur.execute(f"""
         SELECT d_address
-        FROM cars, dealership, availability
-        WHERE c_carid = a_carid
-        AND d_dealerid = a_dealerid
+        FROM orders, cars, availability, dealership
+        WHERE c_carid = o_carid
+        AND d_dealerid = o_dealerid
+        AND a_orderid = o_orderid
         AND c_make LIKE ?
         AND c_model LIKE ?
         AND c_year LIKE ?
@@ -312,12 +313,12 @@ with app.app_context():
         #print(fullname)
 
         cur.execute(f"""
-        SELECT * 
-        FROM availability, dealership, cars
-        WHERE a_carid = c_carid
-        AND a_dealerid = d_dealerid
-        AND a_carid = ?
-        """,(carid))
+        SELECT d_address
+        FROM availability, orders, dealership, cars
+        WHERE a_orderid = o_orderid
+        AND o_dealerid = d_dealerid
+        AND c_carid = ?
+        """,(carid,))
         results = cur.fetchall()
         
         return results
