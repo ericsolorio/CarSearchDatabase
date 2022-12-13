@@ -17,6 +17,7 @@
     cd ./carsearchproject
 
 #run the app
+    
     python3 server.py
 
 #copy link and put it into any browser
