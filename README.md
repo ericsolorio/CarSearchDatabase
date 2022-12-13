@@ -2,22 +2,22 @@
 
 #to run our app create a virtual environment
 
-python3 -m venv venv
+    python3 -m venv venv
 
 #activate the virtual environment
 
-source venv/bin/activate
+    source venv/bin/activate
 
 #install the requirements to run the web app
 
-pip3 install -r requirements.txt
+    pip3 install -r requirements.txt
 
 #change directory
 
-cd ./carsearchproject
+    cd ./carsearchproject
 
 #run the app
-python3 server.py
+    python3 server.py
 
 #copy link and put it into any browser
 
@@ -29,4 +29,4 @@ python3 server.py
 #Now using this data from the database you are able to navigate through our web app. this includes the logins data much more.
 
 #once done deactivate the virtual environement
-deactivate
+    deactivate
