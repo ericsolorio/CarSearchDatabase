@@ -35,7 +35,8 @@
 
 #######install pip before hand if not working#######
 #make sure to install pip
-python3 -m pip3 install --upgrade pip or pip3 install --upgrade pip
+
+    python3 -m pip3 install --upgrade pip or pip3 install --upgrade pip
 
 #######IF WINDOWS TRY THIS#######
 #respectfully to the code that's giving you an error
