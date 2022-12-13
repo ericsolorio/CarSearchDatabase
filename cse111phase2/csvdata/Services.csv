@@ -1,0 +1,31 @@
+s_serviceid,s_carid,s_userid,s_dealerid,s_type
+1,30,1,2,oil change
+2,30,2,1,tires
+3,30,2,1,brakes
+4,45,5,7,alignment
+5,67,2,8,wash
+6,90,4,6,wash 
+7,67,3,6,window tint 
+8,7,1,14,window tint 
+9,7,4,14,oil change
+10,3,1,15,water coolant 
+11,22,4,15,water coolant 
+12,22,5,10,power steering 
+13,22,5,2,engine swap
+14,50,8,2,window tint 
+15,7,5,4,alignment
+16,90,8,3,smog check 
+17,3,1,6,wash 
+18,3,2,3,oil change
+19,90,4,4,wash
+20,67,3,5,alignment
+21,70,4,7,smog check 
+22,44,5,7,water coolant 
+23,45,3,6,brakes
+24,4,2,13,tires
+25,4,2,13,engine swap
+26,30,8,1,window tint 
+27,50,3,12,oil change
+28,50,7,12,alignment
+29,50,7,12,tires
+30,50,7,12,water coolant 
