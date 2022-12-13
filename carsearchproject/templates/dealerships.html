@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="static/main.js"></script>
+    </head>
+
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5000/newManufacturers">Make New Manufacturers</a></li>
+            <li><a href="http://127.0.0.1:5000/newDealerships">Make New Dealerships</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <body>
+        <h1>Business Account</h1>
+        <h2>Make New Dealerships</h2>
+
+        <input type = "text" id = "manager">
+        <label for = "manager">manager</label>
+        <br>
+        <input type = "text" id = "email">
+        <label for = "email">email</label>
+        <br>
+        <input type = "text" id = "address">
+        <label for = "address">address</label>
+        <br>
+        <input type = "text" id = "phonenumber">
+        <label for = "phonenumber">phonenumber</label>
+        <br>
+        <input type = "text" id = "nation">
+        <label for = "nation">nation</label>
+        <br>
+        <button onclick="createDealer()">Make</button>
+    
+
+        <div id = block>
+            <p id ="paragraph"></p>
+        </div>
+
+    </body>
+ </html>
+
+
+<!-- 
+    Make new manufacturers tab sends to make new Manu tab:
+- Ask the user all the questions from the table columns, location, ceo name, address, etc
+- Submit button
+
+Make new dealerships sends to make new dealer tab
+- Same as new manufacturers except for dealership
+
+Make new order tab sends to make new order page
+- Ask all the questions, which are basically all the columns from the orders table. -->
