@@ -1,0 +1,201 @@
+m_id,m_address,m_phonenumber,m_email,m_nationkey
+1,1234 Hydro Ave,039-7381-43,manu@canada.com,1
+2,9482 Sentinel Dr,493-5909-01,manu@india.com,2
+3,8903 Yahyeet St,474-4316-18,manu2@india.com,3
+4,3498 Iphone Ave,634-1124-22,manu@japan.com,4
+5,4538 Airpods Dr,209-0627-07,manu1@china.com,5
+6,4689 Fairfax St,223-5310-75,manu2@china.com,6
+7,4039 Pavillon Way ,596-2975-24,manu@us.com,7
+8,5028 G Street,475-9203-22,manu2@us.com,8
+9,7050 A ST ,667-7282-73,n.fowler@randatmail.com,9
+10,6503 Water Way ,114-2695-52,s.scott@randatmail.com,10
+11,7800 Backpack Ct ,553-0596-38,d.dixon@randatmail.com,11
+12,8901 Clean St,624-4655-16,t.miller@randatmail.com,12
+13,6049 Beep Ave,500-7273-28,m.farrell@randatmail.com,13
+14,7809 Boop Ave,587-4565-05,w.hawkins@randatmail.com,14
+15,2304 Chrome Ct,324-7307-93,c.holmes@randatmail.com,15
+16,1022 W Ave ,525-5220-14,d.west@randatmail.com,16
+17,5607 N Coms St,367-6079-25,e.brown@randatmail.com,17
+18,6705 Count Ave ,099-4287-77,l.lloyd@randatmail.com,18
+19,4506 Group St,070-9931-44,g.carroll@randatmail.com,19
+20,7093 Lave Ct,091-6695-30,m.barnes@randatmail.com,20
+21,1235 Hydro Ave,760-3758-04,j.cunningham@randatmail.com,1
+22,9483 Sentinel Dr,553-7710-77,s.alexander@randatmail.com,2
+23,8904 Yahyeet St,762-0749-73,r.mason@randatmail.com,3
+24,3499 Iphone Ave,547-0175-70,j.phillips@randatmail.com,4
+25,4539 Airpods Dr,879-1382-34,a.morris@randatmail.com,5
+26,4690 Fairfax St,594-4759-56,m.williams@randatmail.com,6
+27,4040 Pavillon Way ,958-8687-33,a.ryan@randatmail.com,7
+28,5029 G Street,609-9814-15,r.stewart@randatmail.com,8
+29,7051 A ST ,698-7857-29,c.brown@randatmail.com,9
+30,6504 Water Way ,381-6814-12,s.taylor@randatmail.com,10
+31,7801 Backpack Ct ,676-5492-39,f.allen@randatmail.com,11
+32,8902 Clean St,075-7589-11,r.gibson@randatmail.com,12
+33,6050 Beep Ave,913-8757-79,g.allen@randatmail.com,13
+34,7810 Boop Ave,419-9631-66,k.barnes@randatmail.com,14
+35,2305 Chrome Ct,752-5230-94,d.cameron@randatmail.com,15
+36,1023 W Ave ,909-6016-91,n.smith@randatmail.com,16
+37,5608 N Coms St,713-0803-30,m.thompson@randatmail.com,17
+38,6706 Count Ave ,594-6888-64,a.alexander@randatmail.com,18
+39,4507 Group St,529-4151-25,j.thomas@randatmail.com,19
+40,7094 Lave Ct,171-4748-25,a.riley@randatmail.com,20
+41,1236 Hydro Ave,434-4909-27,g.campbell@randatmail.com,1
+42,9484 Sentinel Dr,944-2750-43,f.scott@randatmail.com,2
+43,8905 Yahyeet St,482-9709-18,c.edwards@randatmail.com,3
+44,3500 Iphone Ave,131-3738-04,k.payne@randatmail.com,4
+45,4540 Airpods Dr,428-7523-14,v.wilson@randatmail.com,5
+46,4691 Fairfax St,176-6722-29,c.moore@randatmail.com,6
+47,4041 Pavillon Way ,665-0315-24,g.martin@randatmail.com,7
+48,5030 G Street,906-4676-93,m.johnston@randatmail.com,8
+49,7052 A ST ,087-3616-88,o.stevens@randatmail.com,9
+50,6505 Water Way ,408-0128-03,g.carter@randatmail.com,10
+51,7802 Backpack Ct ,860-9200-61,k.gray@randatmail.com,11
+52,8903 Clean St,943-8314-33,s.lloyd@randatmail.com,12
+53,6051 Beep Ave,803-7268-97,j.jones@randatmail.com,13
+54,7811 Boop Ave,193-4501-43,f.ellis@randatmail.com,14
+55,2306 Chrome Ct,806-6785-07,e.ferguson@randatmail.com,15
+56,1024 W Ave ,645-6679-36,l.adams@randatmail.com,16
+57,5609 N Coms St,061-8941-37,a.smith@randatmail.com,17
+58,6707 Count Ave ,751-4430-04,g.turner@randatmail.com,18
+59,4508 Group St,276-2373-02,a.mitchell@randatmail.com,19
+60,7095 Lave Ct,963-6752-81,v.hamilton@randatmail.com,20
+61,1237 Hydro Ave,569-8707-65,l.grant@randatmail.com,1
+62,9485 Sentinel Dr,560-8736-28,a.harper@randatmail.com,2
+63,8906 Yahyeet St,173-0268-20,g.scott@randatmail.com,3
+64,3501 Iphone Ave,965-7570-03,m.west@randatmail.com,4
+65,4541 Airpods Dr,491-6070-71,k.richards@randatmail.com,5
+66,4692 Fairfax St,786-3567-14,n.rogers@randatmail.com,6
+67,4042 Pavillon Way ,271-1742-12,v.mitchell@randatmail.com,7
+68,5031 G Street,315-8592-30,d.reed@randatmail.com,8
+69,7053 A ST ,434-7541-53,m.carter@randatmail.com,9
+70,6506 Water Way ,191-7082-06,e.taylor@randatmail.com,10
+71,7803 Backpack Ct ,080-7679-45,a.higgins@randatmail.com,11
+72,8904 Clean St,598-0686-52,s.murray@randatmail.com,12
+73,6052 Beep Ave,094-6098-49,j.dixon@randatmail.com,13
+74,7812 Boop Ave,596-5103-77,a.martin@randatmail.com,14
+75,2307 Chrome Ct,188-4682-63,c.stevens@randatmail.com,15
+76,1025 W Ave ,226-8488-89,r.hamilton@randatmail.com,16
+77,5610 N Coms St,000-6725-43,l.owens@randatmail.com,17
+78,6708 Count Ave ,138-0751-81,m.clark@randatmail.com,18
+79,4509 Group St,869-6231-80,a.davis@randatmail.com,19
+80,7096 Lave Ct,061-3185-11,a.wilson@randatmail.com,20
+81,1238 Hydro Ave,314-1344-81,s.gibson@randatmail.com,1
+82,9486 Sentinel Dr,992-6410-09,a.hunt@randatmail.com,2
+83,8907 Yahyeet St,995-3056-14,t.robinson@randatmail.com,3
+84,3502 Iphone Ave,665-8384-26,t.johnston@randatmail.com,4
+85,4542 Airpods Dr,781-4811-10,c.thomas@randatmail.com,5
+86,4693 Fairfax St,054-4034-14,b.nelson@randatmail.com,6
+87,4043 Pavillon Way ,626-0850-08,a.gibson@randatmail.com,7
+88,5032 G Street,893-3540-97,s.perkins@randatmail.com,8
+89,7054 A ST ,811-7442-88,c.cameron@randatmail.com,9
+90,6507 Water Way ,462-4120-59,n.morgan@randatmail.com,10
+91,7804 Backpack Ct ,499-1454-79,i.douglas@randatmail.com,11
+92,8905 Clean St,729-0066-85,s.edwards@randatmail.com,12
+93,6053 Beep Ave,620-5464-29,a.ryan@randatmail.com,13
+94,7813 Boop Ave,268-2678-58,d.taylor@randatmail.com,14
+95,2308 Chrome Ct,320-1171-03,l.clark@randatmail.com,15
+96,1026 W Ave ,092-6223-58,h.hunt@randatmail.com,16
+97,5611 N Coms St,337-6888-95,m.wright@randatmail.com,17
+98,6709 Count Ave ,474-3409-27,m.ferguson@randatmail.com,18
+99,4510 Group St,086-4012-27,c.spencer@randatmail.com,19
+100,7097 Lave Ct,585-1881-00,c.carroll@randatmail.com,20
+101,1239 Hydro Ave,956-2681-69,m.adams@randatmail.com,1
+102,9487 Sentinel Dr,516-4012-83,r.roberts@randatmail.com,2
+103,8908 Yahyeet St,713-4171-27,a.johnston@randatmail.com,3
+104,3503 Iphone Ave,083-7721-94,o.mason@randatmail.com,4
+105,4543 Airpods Dr,434-9678-05,a.kelley@randatmail.com,5
+106,4694 Fairfax St,857-5531-74,a.wells@randatmail.com,6
+107,4044 Pavillon Way ,605-4046-91,a.harrison@randatmail.com,7
+108,5033 G Street,704-3923-65,a.ross@randatmail.com,8
+109,7055 A ST ,605-7947-46,s.alexander@randatmail.com,9
+110,6508 Water Way ,845-3695-12,p.alexander@randatmail.com,10
+111,7805 Backpack Ct ,465-4342-43,o.brown@randatmail.com,11
+112,8906 Clean St,227-9192-19,i.thompson@randatmail.com,12
+113,6054 Beep Ave,607-8881-96,t.kelley@randatmail.com,13
+114,7814 Boop Ave,185-4965-05,f.taylor@randatmail.com,14
+115,2309 Chrome Ct,768-4358-15,a.ryan@randatmail.com,15
+116,1027 W Ave ,377-1138-65,k.holmes@randatmail.com,16
+117,5612 N Coms St,942-1152-88,d.warren@randatmail.com,17
+118,6710 Count Ave ,223-9547-68,a.scott@randatmail.com,18
+119,4511 Group St,657-8980-96,k.anderson@randatmail.com,19
+120,7098 Lave Ct,274-5227-78,a.davis@randatmail.com,20
+121,1240 Hydro Ave,400-1872-29,k.riley@randatmail.com,1
+122,9486 Sentinel Dr,670-1090-69,a.williams@randatmail.com,2
+123,8909 Yahyeet St,974-0380-56,n.tucker@randatmail.com,3
+124,3504 Iphone Ave,052-6957-31,e.mitchell@randatmail.com,4
+125,4544 Airpods Dr,197-4854-64,e.ryan@randatmail.com,5
+126,4695 Fairfax St,798-8397-97,c.richards@randatmail.com,6
+127,4045 Pavillon Way ,778-8539-49,d.johnston@randatmail.com,7
+128,5034 G Street,598-9662-98,h.fowler@randatmail.com,8
+129,7056 A ST ,814-1146-56,o.crawford@randatmail.com,9
+130,6509 Water Way ,470-9434-28,m.kelley@randatmail.com,10
+131,7806 Backpack Ct ,191-9049-43,a.morrison@randatmail.com,11
+132,8907 Clean St,040-2174-91,j.roberts@randatmail.com,12
+133,6055 Beep Ave,127-4203-77,h.holmes@randatmail.com,13
+134,7815 Boop Ave,663-4252-58,e.richards@randatmail.com,14
+135,2310 Chrome Ct,530-6716-44,a.foster@randatmail.com,15
+136,1028 W Ave ,966-3509-49,a.spencer@randatmail.com,16
+137,5613 N Coms St,568-8747-96,r.casey@randatmail.com,17
+138,6711 Count Ave ,592-8162-31,v.moore@randatmail.com,18
+139,4512 Group St,573-3718-36,v.evans@randatmail.com,19
+140,7099 Lave Ct,709-3813-50,o.moore@randatmail.com,20
+141,1241 Hydro Ave,280-0356-03,t.carroll@randatmail.com,1
+142,9489 Sentinel Dr,290-5916-91,a.johnston@randatmail.com,2
+143,8910 Yahyeet St,596-0062-03,h.scott@randatmail.com,3
+144,3505 Iphone Ave,608-8462-76,v.davis@randatmail.com,4
+145,4515 Airpods Dr,052-9662-98,h.chapman@randatmail.com,5
+146,4696 Fairfax St,832-0855-81,e.armstrong@randatmail.com,6
+147,4046 Pavillon Way ,754-6803-17,d.campbell@randatmail.com,7
+148,5035 G Street,356-8534-81,a.miller@randatmail.com,8
+149,7057 A ST ,062-7545-33,j.morgan@randatmail.com,9
+150,6510 Water Way ,418-7031-53,l.perry@randatmail.com,10
+151,7807 Backpack Ct ,856-0835-16,m.bailey@randatmail.com,11
+152,8908 Clean St,071-1741-51,p.carroll@randatmail.com,12
+153,6056 Beep Ave,376-1786-27,i.elliott@randatmail.com,13
+154,7816 Boop Ave,583-7358-20,t.martin@randatmail.com,14
+155,2311 Chrome Ct,774-6962-96,s.owens@randatmail.com,15
+156,1029 W Ave ,241-8725-32,j.gibson@randatmail.com,16
+157,5614 N Coms St,601-6250-91,a.richardson@randatmail.com,17
+158,6712 Count Ave ,388-4750-87,a.holmes@randatmail.com,18
+159,4513 Group St,898-3390-58,a.carter@randatmail.com,19
+160,7100 Lave Ct,405-2909-43,e.bailey@randatmail.com,20
+161,1242 Hydro Ave,888-2460-71,k.scott@randatmail.com,1
+162,9490 Sentinel Dr,260-1669-93,c.wells@randatmail.com,2
+163,8911 Yahyeet St,102-1351-61,d.gibson@randatmail.com,3
+164,3506 Iphone Ave,778-5281-28,r.parker@randatmail.com,4
+165,4546 Airpods Dr,302-7671-60,h.nelson@randatmail.com,5
+166,4697 Fairfax St,975-9861-81,a.higgins@randatmail.com,6
+167,4047 Pavillon Way ,535-7484-91,k.bennett@randatmail.com,7
+168,5036 G Street,440-5172-83,d.anderson@randatmail.com,8
+169,7058 A ST ,292-6088-53,b.stewart@randatmail.com,9
+170,6511 Water Way ,940-1748-93,a.perkins@randatmail.com,10
+171,7808 Backpack Ct ,095-1167-22,d.henderson@randatmail.com,11
+172,8909 Clean St,486-3460-69,a.brown@randatmail.com,12
+173,6057 Beep Ave,865-2399-86,a.moore@randatmail.com,13
+174,7817 Boop Ave,372-6547-26,s.robinson@randatmail.com,14
+175,2312 Chrome Ct,843-2419-59,a.nelson@randatmail.com,15
+176,1030 W Ave ,654-5506-03,s.carroll@randatmail.com,16
+177,5615 N Coms St,184-2610-31,a.roberts@randatmail.com,17
+178,6713 Count Ave ,921-3215-54,d.perkins@randatmail.com,18
+179,4513 Group St,803-1543-25,w.murray@randatmail.com,19
+180,7101 Lave Ct,267-8040-32,b.barrett@randatmail.com,20
+181,1213 Hydro Ave,620-6973-98,i.ross@randatmail.com,1
+182,9491 Sentinel Dr,119-9118-09,k.jones@randatmail.com,2
+183,8912 Yahyeet St,770-2664-36,e.morgan@randatmail.com,3
+184,3507 Iphone Ave,445-6169-14,j.cameron@randatmail.com,4
+185,4547 Airpods Dr,353-3349-29,f.ross@randatmail.com,5
+186,4698 Fairfax St,673-1692-63,a.williams@randatmail.com,6
+187,4048 Pavillon Way ,688-4856-10,t.wells@randatmail.com,7
+188,5037 G Street,212-4255-79,j.smith@randatmail.com,8
+189,7059 A ST ,313-6078-22,o.elliott@randatmail.com,9
+190,6512 Water Way ,063-9769-71,a.holmes@randatmail.com,10
+191,7809 Backpack Ct ,902-1066-15,m.williams@randatmail.com,11
+192,8910 Clean St,913-3788-13,a.cooper@randatmail.com,12
+193,6058 Beep Ave,046-4357-61,e.smith@randatmail.com,13
+194,7818 Boop Ave,234-3703-46,p.allen@randatmail.com,14
+195,2313 Chrome Ct,416-4617-45,d.hawkins@randatmail.com,15
+196,1031 W Ave ,240-4997-90,r.rogers@randatmail.com,16
+197,5616 N Coms St,849-5154-32,f.barrett@randatmail.com,17
+198,6714 Count Ave ,879-0653-20,h.payne@randatmail.com,18
+199,4515 Group St,432-7801-33,d.watson@randatmail.com,19
+200,7102 Lave Ct,648-6090-85,j.harris@randatmail.com,20
