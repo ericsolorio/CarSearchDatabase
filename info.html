@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="static/main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/static/styling.css">
+    </head>
+
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5000/normalaccount">Search</a></li>
+            <li><a href="http://127.0.0.1:5000/availability">Check Availability</a></li>
+            <li><a href="http://127.0.0.1:5000/print">Print Database</a></li>
+            <li><a href="http://127.0.0.1:5000/acctinfo">Account Information</a></li>
+        </ul>
+    </nav>
+
+    <br>
+    <body>
+        <h1>Normal Account</h1>
+        <h2>Account Informtion</h2>
+
+        <button onclick="prevPurchases()">previous purchases</button>
+        <button onclick="serviceHistory()">service history</button>
+    
+
+        <div id = block>
+            <p id ="paragraph"></p>
+        </div>
+
+    </body>
+ </html>
+
+
+<!-- Normal account page(logged in as normal):
+
+Search tab sends them too search page:
+	-ask the questions questions
+	-form basically to get the car they want
+
+Check availability tab sends to availability page
+	- ask for carid
+	- search button car id
+
+Print Database tab sends them to print page
+	- just put a print button
+
+Check info tab sends to info page
+	- previous purchases button
+	- services history button -->
