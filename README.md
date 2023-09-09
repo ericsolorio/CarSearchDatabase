@@ -1,5 +1,10 @@
 # CarSearchDatabase
 
+#######install pip before hand if not working#######
+#make sure to install pip
+
+    python3 -m pip3 install --upgrade pip or pip3 install --upgrade pip
+
 #to run our app create a virtual environment
 
     python3 -m venv venv
@@ -32,11 +37,6 @@
 #once done deactivate the virtual environement
     
     deactivate
-
-#######install pip before hand if not working#######
-#make sure to install pip
-
-    python3 -m pip3 install --upgrade pip or pip3 install --upgrade pip
 
 #######IF WINDOWS TRY THIS#######
 #respectfully to the code that's giving you an error
