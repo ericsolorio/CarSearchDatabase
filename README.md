@@ -23,7 +23,7 @@
 
 #run the app
     
-    python3 server.py
+    python3 server.py or FLASK_APP=server.py flask run
 
 #copy link and put it into any browser
 
